@@ -9,7 +9,6 @@ Scope terbagi dalam 3 bagian :
 Block scope adalah ruang lingkup kode program yang terbatas hanya dalam sebuah block code yang biasanya berada di dalam if statements, looping (for, while, dll), try-catch, dll. Yang ditandai dengan {} (kurung kurawal) sebagai pembuka dan penutup kode program tersebut.
 Namun javascript tidak mengenal block scope, javascript hanya mengenal function scope dan global scope.
 
->Terkecuali untuk try-catch sejak es3 memang di rancang untuk memiliki block scope
 
 ```javascript
 if(true) {
@@ -24,7 +23,7 @@ Yang terjadi :
 
 Inilah bukti jika block scope tidak berlaku di javascript.
 
-Untuk try - catch :
+>Terkecuali untuk try-catch sejak es3 memang di rancang untuk memiliki block scope
 
 ```javascript
 
