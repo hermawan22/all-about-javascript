@@ -6,4 +6,7 @@ Namun saya yakin ini tidaklah sempurna, maka dari itu saya sangat berharap adany
 
 Daftar isi :
 -----------
-- [Scope](Scope.md)
+- [Variabel dan Scope](Scope.md)
+- Functions
+- Object
+- Asynchronous
