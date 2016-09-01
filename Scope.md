@@ -35,7 +35,9 @@ function panggil() {
 ```
 
 Sebenarnya yang terjadi, karna proses compile javascript melalui 2 tahap, yaitu :
+
 1. Tahap creation : pada tahap ini function dan deklarasi variabel akan di alokasikan ke memori.
+
 2. Tahap eksekusi : pada tahap ini karna deklarasi variabel dan function telah di alokasikan ke memori maka ini akan di eksekusi terlebih dahulu. Ini seolah - olah memindahkan function dan deklarasi variabel ke atas.
 
 Proses inilah yang dinamakan **hoisting**.
@@ -43,7 +45,7 @@ Proses inilah yang dinamakan **hoisting**.
 > Untuk variabel yang akan di alokasikan ke memori hanya deklarasi bukan inisialisasi.
 
 ```javascript
-//seolah - olah var a dipindahkan ke atas
+//seolah - olah 'var a' dipindahkan ke atas
 
 //var a
 
@@ -59,7 +61,7 @@ Scope, kita sudah sangat sering jumpai jika kita telah mengenal bahasa pemrogram
 Tapi mungkin masih banyak dari anda yang bertanya apa itu scope?
 Scope adalah ruang lingkup dari kode program. Jadi ini adalah batasan - batasan pengaksesan sebuah kode program.
 
-> Scope mengacu kepada ruang linkgup variabel.
+> Scope mengacu kepada ruang lingkup variabel.
 
 Scope terbagi dalam 3 bagian :
 

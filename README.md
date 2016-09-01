@@ -10,3 +10,4 @@ Daftar isi :
 - Functions
 - Object
 - Asynchronous
+- ES6
