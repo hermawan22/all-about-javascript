@@ -7,7 +7,18 @@ Namun saya yakin ini tidaklah sempurna, maka dari itu saya sangat berharap adany
 Daftar isi :
 -----------
 - [Variabel dan Scope](Scope.md)
-- Functions
 - Object
+- Functions
 - Asynchronous
 - ES6
+
+Tutorial : 
+==========
+Kedepan saya akan coba menuliskan beberapa tutorial yang berkaitan dengan javascript (nodejs, reactjs, dll);
+
+Lisensi & Copyright :
+=====================
+Semua materi yang tertuang di repository copyright by :copyright: Hermawan (nino).
+
+![](./img/lisensi.png)  
+Dan di bawah lisensi : [Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License](https://creativecommons.org/licenses/by-nc-nd/3.0/)
