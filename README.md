@@ -4,6 +4,10 @@ Halo, nama saya Hermawan atau biasa dipanggil Nino (jangan tanya kenapa bisa dip
 Disini saya mencoba untuk menuangkan apa yang telah saya fahami di dalam javascript, terutama bagian - bagian yang *aneh* dari javascript.
 Namun saya yakin ini tidaklah sempurna, maka dari itu saya sangat berharap adanya koreksi dari teman - teman sekalian (bisa melalui **pull request** atau memberikan **issue**) :coffee:.
 
+Book
+====
+Saya mencoba untuk membuat e-book javascript, karna saat ini saya masih melihat sedikitnya resource dan referensi javascript yang berbahsa Indonesia.
+
 Daftar isi :
 -----------
 - [Variabel dan Scope](Scope.md)
