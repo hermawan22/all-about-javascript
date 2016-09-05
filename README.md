@@ -8,7 +8,7 @@ Daftar isi :
 -----------
 - [Variabel dan Scope](Scope.md)
 - Object
-- [Functions](Scope.md)
+- [Functions](Functions.md)
 - Asynchronous
 - ES6
 
