@@ -1,8 +1,16 @@
+> Pada tutorial ini kita belum akan membahas tentang fitur di es6 / es2015
+
+# Variabel dan scope
+Pada bagian ini, saya ingin coba menjelaskan apa yang saya pahami tentang variabel dan scope.
+
+Meskipun di es6 / es2015 konsep scope dan variabel ini akan ada perbuahan berubah. Misalnya dengan adanya *const* dan *let* sebagai container / penampung nilai di es6 / es2105 yang menggantikan *var*.  
+Namun alangkah baiknya jika kita mempelajari scope dan variabel di es5, karna dengan kita mempelajarinya maka kita akan tahu apa sebenarnya yang berubah dari es5 dan es6 dan apa manfaatnya dalam coding.
+
 ## Variabel
 Variabel adalah *penampung / container* dari suatu nilai.
-Nilai ini dapat bertype number, string, boolean, atau yang lainnya.
+Nilai ini dapat bertype number, string, boolean, atau yang lainnya.  
 
-Contoh :
+Contoh :  
 ```javascript
 var a = 5; // variabel 'a' dengan nilai '5' yang bertipe number
 var b = 'Hello world!'; // variabel 'b' dengan nilai 'hello world' bertype string
@@ -12,6 +20,7 @@ var b = 'Hello world!'; // variabel 'b' dengan nilai 'hello world' bertype strin
 Number di javascript selalu berjenis float 64bit
 
 ### Hoisting
+Mungkin bagi anda yang baru mempelajari javascript, jika mendengar kata hoisting adalah hal yang asing di telinga.
 Hoisting adalah tingkah laku seolah - olah javascript memindahkan sebuah deklarasi dan function ke atas.
 
 contoh :
@@ -34,7 +43,7 @@ function panggil() {
 }
 ```
 
-Sebenarnya yang terjadi, karna proses compile javascript melalui 2 tahap, yaitu :
+Bagi sebagian orang yang telah mengenal javascript, masih ada yang salah persepsi mengatakan bahwa hoisting adalah javascript secara fisik yang memindahkan deklarasi variabel dan function ke atas, padahal sebenarnya yang terjadi, karna proses compile javascript melalui 2 tahap, yaitu :
 
 1. Tahap creation : pada tahap ini function dan deklarasi variabel akan di alokasikan ke memori.
 
@@ -42,7 +51,7 @@ Sebenarnya yang terjadi, karna proses compile javascript melalui 2 tahap, yaitu 
 
 Proses inilah yang dinamakan **hoisting**.
 
-> Untuk variabel yang akan di alokasikan ke memori hanya deklarasi bukan inisialisasi.
+> Perlu diingat, bahwa untuk variabel yang akan di alokasikan ke memori hanya deklarasi bukan inisialisasi.
 
 ```javascript
 //seolah - olah 'var a' dipindahkan ke atas
@@ -69,7 +78,6 @@ Scope terbagi dalam 3 bagian :
 Block scope adalah ruang lingkup kode program yang terbatas hanya dalam sebuah block code yang biasanya berada di dalam if statements, looping (for, while, dll), try-catch, dll. Yang ditandai dengan {} (kurung kurawal) sebagai pembuka dan penutup kode program tersebut.
 Namun javascript tidak mengenal block scope, *javascript hanya mengenal function scope dan global scope*.
 
-
 ```javascript
 if(true) {
   var a = 5 // Kita menginisialisai variabel a dengan nilai 5
@@ -77,10 +85,8 @@ if(true) {
 
 alert(a); // jika dipanggil di luar block scope if, apa yang terjadi?
 ```
-Yang terjadi :
-
-![alt text](./img/img1-scope.png)
-
+Yang terjadi :  
+![alt text](./img/img1-scope.png)  
 Inilah bukti jika block scope tidak berlaku di javascript, karna kita bisa mengakses variabel yang berada di dalam block scope if.
 
 >Terkecuali untuk try-catch sejak es3 memang di rancang untuk memiliki block scope
@@ -97,10 +103,8 @@ catch(e) {
 console.log(e); // jika di panggil diluar block scope try-catch, apa yang terjadi?
 ```
 
-Yang terjadi :
-
-![alt text](./img/img2-scope.png)
-
+Yang terjadi :  
+![alt text](./img/img2-scope.png)  
 Jika kita perhatikan pada contoh if, kita dapat mengakses sebuah apapun yang berada di dalam block scope if (dalam contoh mengkases variabel). Sedangkan pada try-catch ketika kita ingin mengakses 'e', yang muncul adalah error.
 Ini menandakan bahwa di javascript khusus untuk try-catch memiliki block scope.
 
@@ -116,12 +120,10 @@ panggil();
 console.log(a); // apa yang terjadi, ketika kita ingin mengakses variabel a yang berada di dalam function scope panggil?
 ```
 
-yang terjadi :
-
+yang terjadi :  
 ![alt text](./img/img3-scope.png)
 
-Ini berarti bahwa javascript memiliki function scope.
-
+Ini berarti bahwa javascript memiliki function scope.  
 Selain itu di dalam function, jika kita ingin mengakses sebuah variabel, jika variabel itu tidak berada di dalam satu function scope yang sama maka akan dicari sampai ke global scope, contohnya :
 
 ```javascript
