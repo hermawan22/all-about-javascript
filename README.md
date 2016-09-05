@@ -11,7 +11,7 @@ Saya mencoba untuk membuat e-book javascript, karna saat ini saya masih melihat 
 Daftar isi :
 -----------
 - [Variabel dan Scope](Scope.md)
-- Object
+- [Object](Object.md)
 - [Functions](Functions.md)
 - Asynchronous
 - ES6
