@@ -1,14 +1,14 @@
 # All About Javascript
 
 Halo, nama saya Hermawan atau biasa dipanggil Nino (jangan tanya kenapa bisa dipanggil Nino, karna ceritanya panjang :stuck_out_tongue:).
-Disini saya mencoba untuk menuangkan apa yang telah saya fahami di dalam javascript.
+Disini saya mencoba untuk menuangkan apa yang telah saya fahami di dalam javascript, terutama bagian - bagian yang *aneh* dari javascript.
 Namun saya yakin ini tidaklah sempurna, maka dari itu saya sangat berharap adanya koreksi dari teman - teman sekalian (bisa melalui **pull request** atau memberikan **issue**) :coffee:.
 
 Daftar isi :
 -----------
 - [Variabel dan Scope](Scope.md)
 - Object
-- Functions
+- [Functions](Scope.md)
 - Asynchronous
 - ES6
 
