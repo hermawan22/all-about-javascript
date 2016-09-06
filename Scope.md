@@ -196,10 +196,10 @@ variable global akan mengacu pada window object :
 var a= 'Hello world';
 
 console.log(a); // outputnya 'Hello world'
-console.log(widnow.a); // outputnya juga sama 'Hello world'
+console.log(window.a); // outputnya juga sama 'Hello world'
 ```
 
-jika di dalam sebuah function scope terdapat sebuah variabel tanpa 'var' dan tidak dalm mode strict, maka di anggap sebagai global variabel (variabel yang terdapat di global scope), contohnya ""
+jika di dalam sebuah function scope terdapat sebuah variabel tanpa 'var' dan tidak dalam mode strict, maka di anggap sebagai global variabel (variabel yang terdapat di global scope), contohnya ""
 
 ```javascript
 function panggil() {
